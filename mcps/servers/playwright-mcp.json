@@ -1,0 +1,9 @@
+{
+    "name": "playwright-server",
+    "description": "A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. เซิร์ฟเวอร์ MCP สำหรับทำ Browser Automation ด้วย Playwright",
+    "command": "npx",
+    "args": [
+        "-y",
+        "@playwright/mcp@latest"
+    ]
+}
