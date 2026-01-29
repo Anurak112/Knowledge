@@ -1,0 +1,9 @@
+{
+    "name": "analytics-plugin",
+    "version": "1.0.0",
+    "description": "Collects usage data. ปลั๊กอินสำหรับเก็บข้อมูลการใช้งาน",
+    "entry": "src/index.js",
+    "permissions": [
+        "read-only-mode"
+    ]
+}

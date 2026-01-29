@@ -1,0 +1,9 @@
+{
+    "description": "Development mode with full tool access. โหมดนักพัฒนา อนุญาตให้ใช้เครื่องมือได้เต็มที่",
+    "permissions": {
+        "allow": [
+            "*"
+        ],
+        "deny": []
+    }
+}

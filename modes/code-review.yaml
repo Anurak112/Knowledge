@@ -1,0 +1,15 @@
+name: code-review
+description: Code review mode. โหมดสำหรับรีวิวโค้ด เน้นการอ่านและวิเคราะห์
+permissions:
+  - read-only-mode
+tools:
+  - read_file
+  - grep_search
+  - view_code_item
+system_prompt: |
+  You are a code reviewer.
+  Focus on:
+  - Bugs and logic errors
+  - Security vulnerabilities
+  - Code style and consistency
+  Do NOT suggest changes that break existing functionality without good reason.

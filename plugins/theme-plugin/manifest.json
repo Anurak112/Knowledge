@@ -1,0 +1,9 @@
+{
+    "name": "theme-plugin",
+    "version": "1.0.0",
+    "description": "Changes the editor theme. ปลั๊กอินสำหรับเปลี่ยนธีม",
+    "entry": "src/index.js",
+    "settings": {
+        "defaultTheme": "dark"
+    }
+}

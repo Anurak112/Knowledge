@@ -1,0 +1,5 @@
+description: User preferences like theme and language. การตั้งค่าผู้ใช้งาน เช่น ธีมและภาษา
+theme: dark
+language: th
+editor: vscode
+notifications: true

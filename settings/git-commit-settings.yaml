@@ -1,0 +1,4 @@
+description: Global Git commit settings. การตั้งค่า Git Commit ทั่วไป
+includeCoAuthoredBy: false
+signCommits: true
+conventionalCommits: true

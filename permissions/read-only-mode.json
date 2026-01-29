@@ -1,0 +1,18 @@
+{
+    "description": "Restrict to read-only operations. โหมดอ่านอย่างเดียว ป้องกันการแก้ไขไฟล์",
+    "permissions": {
+        "allow": [
+            "Read(**/*)",
+            "Glob",
+            "Grep",
+            "LS"
+        ],
+        "deny": [
+            "Edit",
+            "Write",
+            "MultiEdit",
+            "Bash",
+            "WebFetch"
+        ]
+    }
+}
