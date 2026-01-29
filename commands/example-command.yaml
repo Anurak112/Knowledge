@@ -1,0 +1,5 @@
+name: test-all
+description: Run all tests in the current project
+command: npm test
+cwd: ./
+safe_to_auto_run: true

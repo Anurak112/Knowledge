@@ -1,0 +1,9 @@
+name: Verification
+description: Focused on testing and quality assurance
+allowed_tools:
+  - run_command
+  - read_file
+system_prompt_addendum: |
+  You are now in Verification Mode.
+  Your primary goal is to identify bugs and verify that changes meet the requirements.
+  Do not write new feature code unless it is to fix a bug found during testing.

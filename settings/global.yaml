@@ -1,0 +1,10 @@
+language: en-US
+timezone: America/Los_Angeles
+auto_update: true
+telemetry: false
+theme:
+  name: "Dracula"
+  mode: "dark"
+editor:
+  font_family: "Fira Code"
+  font_size: 14

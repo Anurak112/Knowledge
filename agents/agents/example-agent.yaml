@@ -1,0 +1,13 @@
+name: PrimaryCoder
+description: Main coding assistant agent
+model: gemini-2.0-flash
+system_prompt: |
+  You are an expert software engineer.
+  Your goal is to write clean, efficient, and well-documented code.
+tools:
+  - read_file
+  - write_to_file
+  - run_command
+subagents:
+  - reviewer_agent
+  - security_auditor
