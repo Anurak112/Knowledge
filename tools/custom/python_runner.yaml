@@ -1,0 +1,11 @@
+name: python-runner
+description: Safe Python script runner. เครื่องมือสำหรับรัน Python script อย่างปลอดภัย
+command: python3
+safe_to_auto_run: false
+arguments:
+  - name: script_path
+    description: Path to the python script
+    required: true
+  - name: args
+    description: Arguments for the script
+    required: false

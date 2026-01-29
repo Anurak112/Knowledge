@@ -1,0 +1,5 @@
+name: git-status
+description: Detailed git status check including recent log and build status. ตรวจสอบสถานะของ Git repository แบบละเอียด
+command: git status --porcelain && git diff --stat HEAD~5 && git log --oneline -5
+cwd: ./
+safe_to_auto_run: true

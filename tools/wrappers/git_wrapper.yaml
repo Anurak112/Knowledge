@@ -1,0 +1,14 @@
+name: git-wrapper
+description: Common Git command wrapper. ตัวหุ้มคำสั่ง Git สำหรับการใช้งานทั่วไป
+command: git
+safe_to_auto_run: false
+subcommands:
+  - name: status
+    description: Check git status
+    args: ["status"]
+  - name: pull
+    description: Pull changes
+    args: ["pull"]
+  - name: push
+    description: Push changes
+    args: ["push"]

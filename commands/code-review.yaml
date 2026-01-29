@@ -1,0 +1,9 @@
+name: code-review
+description: Comprehensive code quality review with security, performance, and architecture analysis. คำสั่งสำหรับรีวิวคุณภาพโค้ด ตรวจสอบความปลอดภัย และประสิทธิภาพ
+command: npx claude-code-review
+cwd: ./
+safe_to_auto_run: false
+arguments:
+  - name: path
+    description: File or directory to review
+    required: true

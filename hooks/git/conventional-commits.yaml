@@ -1,0 +1,7 @@
+name: conventional-commits
+description: Enforce conventional commit message format. ตรวจสอบรูปแบบข้อความ Commit ให้เป็นไปตามมาตรฐาน
+triggers:
+  - pre-commit
+action:
+  type: script
+  path: hooks/git/scripts/conventional-commits.py
